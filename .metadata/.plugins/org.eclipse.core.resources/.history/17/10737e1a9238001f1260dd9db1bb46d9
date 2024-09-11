@@ -1,0 +1,17 @@
+package oops;
+
+public class Exception1 {
+
+	public static void main(String[] args) throws Exception  {
+		
+		int a = 10/0;
+		System.out.println(a);
+		
+		System.out.println("Hellow");
+
+		Thread.sleep(100);
+		
+		
+	}
+
+}

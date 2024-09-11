@@ -1,0 +1,91 @@
+package webtest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Demo {
+
+	@SuppressWarnings("null")
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.out.println("djfjfdjfg");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rajesh\\eclipse-workspace\\Welcome\\Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		String baseUrl = "https://www.google.com";
+		driver.manage().window().maximize();
+		driver.get(baseUrl);
+		WebElement jsname=driver.findElement(By.xpath("//*[@id=\"APjFqb\"]"));
+		jsname.sendKeys("Riddhi Business Ventures");
+		jsname.submit();
+		
+
+		WebElement link=driver.findElement(By.xpath("//div[@class='notranslate HGLrXd NJjxre iUh30 ojE3Fb']//div[@class='q0vns']//div[@class='CA5RN']//div//span[@class='VuuXrf'][normalize-space()='LinkedIn · saranya ganesan']"));
+		link.click();
+		
+		//WebElement signinlink=driver.findElement(By.linkText("https://www.linkedin.com/"));
+		//signinlink.click();
+		
+		//WebElement signin=driver.findElement(By.xpath("/html/body/nav/div/a[2]"));
+		//signin.click();
+		
+		String baseUrl1 = "https://www.linkedin.com/";
+		driver.get(baseUrl1);
+		
+		WebElement username=driver.findElement(By.xpath("//*[@id=\"session_key\"]"));
+		WebElement password=driver.findElement(By.xpath("//*[@id=\"session_password\"]"));
+		username.sendKeys("9952033164");
+		password.sendKeys("Saran@123");
+		
+		
+		WebElement button=driver.findElement(By.xpath("/html/body/main/section[1]/div/div/form/div[2]/button"));
+		button.click();
+		//String actualUrl="https://live.browserstack.com/dashboard";
+		//String expectedUrl= driver.getCurrentUrl();
+		
+		WebElement search=driver.findElement(By.xpath("//*[@id=\"global-nav-typeahead\"]/input"));
+		search.sendKeys("narendirakumar g");
+		
+		new Select (driver.findElement(By.id("global-nav-typeahead"))).selectByVisibleText("narendirakumar g");
+		
+//		Select dropdown = new Select(driver.findElement(By.id("global-nav-typeahead")));
+//		WebElement search = null;
+//		search.sendKeys("narendirakumar g");
+//		dropdown.selectByVisibleText("narendirakumar g");
+//		dropdown.selectByIndex(1);
+		
+		
+		//Select search1 =new Select(driver.findElement(By.xpath("//*[@id=\\\"global-nav-typeahead\\\"]/input")));
+		//search.selectByVisibleText("narendirakumar g");
+		
+		
+		//Select search1 = new Select(driver.findElement(By.xpath("//*[@id=\\\"global-nav-typeahead\\\"]/input")));
+		//search1.selectByIndex(2);
+		//search1.submit();
+			
+		Thread.sleep(3000);
+		driver.close();	
+		}
+}
+
+
+
+//*[@id="global-nav-typeahead"]/input
+
+//riddhibusinessventures@gmail.com
+//Saran@123
+
+
+//driver.findElement(By.id("user_password"));
+//WebElement password=driver.findElement(By.id("user_password"));
+
+//WebElement username=driver.findElement(By.id("user_email_Login"));
+//WebElement password=driver.findElement(By.id("user_password"));
+//WebElement login=driver.findElement(By.name("commit"));
+//username.sendKeys("abc@gmail.com");
+//password.sendKeys("your_password");
+//login.click();
+//String actualUrl="https://live.browserstack.com/dashboard";
+//String expectedUrl= driver.getCurrentUrl();

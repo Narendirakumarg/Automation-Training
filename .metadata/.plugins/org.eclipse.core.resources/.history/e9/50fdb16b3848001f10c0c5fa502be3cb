@@ -1,0 +1,36 @@
+package Dev;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Listbox {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Rajesh\\eclipse-workspace\\Welcome\\Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		// driver.manage().window().maximize();
+		String baseUrl = "https://demoqa.com/select-menu";
+		driver.get(baseUrl);
+		
+		WebElement Listbox = driver.findElement(By.id("cars"));
+		Select cars = new Select(Listbox);
+		
+		
+		System.out.println("List of Cars");
+		List<WebElement> Listcar = cars.getOptions();
+				for (WebElement a : Listcar)
+					System.out.println(a.getText());
+				
+		cars.selectByIndex(1);
+		cars.selectByIndex(2);
+		 
+
+	}
+
+}

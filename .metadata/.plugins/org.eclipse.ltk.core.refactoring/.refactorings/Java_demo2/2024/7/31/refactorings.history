@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Assignments.NullPointerExceptionExample.java&apos; to &apos;NNullPointerException.java&apos;&#x0D;&#x0A;- Original project: &apos;Java_demo2&apos;&#x0D;&#x0A;- Original element: &apos;Assignments.NullPointerExceptionExample.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Assignments.NNullPointerException.java&apos;" description="Rename compilation unit &apos;NullPointerExceptionExample.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Assignments{NullPointerExceptionExample.java" name="NNullPointerException.java" references="false" stamp="1722444628013" version="1.0"/>
+</session>

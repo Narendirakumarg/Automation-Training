@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]">
+  <test thread-count="5" name="MyTest(failed)">
+    <groups>
+      <run>
+        <include name="Fashion"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestNGDemos.D05FirstCryAssignment">
+        <methods>
+          <include name="clickOnGirlsFashion"/>
+          <include name="clickOnBoysFashion"/>
+        </methods>
+      </class> <!-- com.TestNGDemos.D05FirstCryAssignment -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [MySuite] -->

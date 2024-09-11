@@ -1,0 +1,5 @@
+ReqesAllUsers=https://reqres.in/api/users?page=2
+ReqesIndUser=https://reqres.in/api/users/3
+ReqesCreateUser=https://reqres.in/api/users
+SuccessResponseStatuscode=200
+CreatedResponseStatuscode=201

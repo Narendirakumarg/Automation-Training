@@ -1,0 +1,33 @@
+package Dev;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Xpathrelativeabsolute {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rajesh\\eclipse-workspace\\Welcome\\Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		//driver.manage().window().maximize();
+		String baseUrl = "https://www.facebook.com";
+		driver.get(baseUrl);
+		WebElement username = driver.findElement(By.name("email"));
+		WebElement password = driver.findElement(By.name("pass"));
+		username.sendKeys("killernaree@gmail.com");
+		password.sendKeys("kkillerr1");
+		WebElement login = driver.findElement(By.name("login")); 
+		login.click();
+		
+		WebElement Error = driver.findElement(By.className("_9ay7"));
+		System.out.println(Error.getText());
+		driver.close();
+		
+		//*[@id="txtCustomerID"]
+		/html/body/div/div/div[2]/div/div[2]/div[1]/div/div/div/form/fieldset/div[2]/fieldset/input[1]
+
+	}
+
+}

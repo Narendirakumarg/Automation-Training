@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="42.084">
+    <testcase classname="Google links" name="To validate Gmail Link" time="7.328">
+        <system-out><![CDATA[Given I Open Google Application.............................................passed
+When I Click on Gmail Link..................................................passed
+Then Gmail page should displayed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google links" name="To validate Images Link" time="5.744">
+        <system-out><![CDATA[Given I Open Google Application.............................................passed
+When I Click on Images Link.................................................passed
+Then Images page should displayed...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google links" name="To validate Store link" time="12.246">
+        <system-out><![CDATA[Given I Open Google Application.............................................passed
+When I Click on Store link..................................................passed
+Then Store page should displayed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google links" name="To validate Terms link" time="16.118">
+        <system-out><![CDATA[Given I Open Google Application.............................................passed
+When I Click on Terms Link..................................................passed
+Then Terms page should displayed............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

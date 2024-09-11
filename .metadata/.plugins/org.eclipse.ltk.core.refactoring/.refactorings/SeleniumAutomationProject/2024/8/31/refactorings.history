@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SeleniumAutomationProject/src/com/TestNGDemos/05ExecuteGruops.xml&apos; to &apos;X05ExecuteGruops.xml&apos;" description="Rename resource &apos;05ExecuteGruops.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/TestNGDemos/05ExecuteGruops.xml" name="X05ExecuteGruops.xml" stamp="1722608000048" updateReferences="true"/>
+</session>

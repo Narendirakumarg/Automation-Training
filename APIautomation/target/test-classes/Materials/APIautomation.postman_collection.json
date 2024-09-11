@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "b0afc579-7d60-43be-8afe-e44d70ffe3c1",
+		"name": "APIautomation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetRequest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
