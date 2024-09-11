@@ -30,6 +30,7 @@ public class GoRestAllv2Users extends Library {
   @AfterMethod
   public void afterMethod() {
 	  System.out.println("inside after method");
+	  System.out.println("New changes");	  
   }
 
 }

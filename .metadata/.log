@@ -3207,3 +3207,65 @@ java.util.concurrent.CancellationException
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.testng.eclipse 1 0 2024-09-12 00:08:29.778
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Rajesh\eclipse-java-2022-03-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\433\0\.cp\lib\testng-remote.jar C:\Users\Rajesh\eclipse-workspace\APIautomation\target\test-classes C:\Users\Rajesh\eclipse-workspace\APIautomation\target\classes C:\Users\Rajesh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar C:\Users\Rajesh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar C:\Users\Rajesh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar C:\Users\Rajesh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\Rajesh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\Rajesh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Rajesh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\Rajesh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\Rajesh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\Rajesh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\Rajesh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar C:\Users\Rajesh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar C:\Users\Rajesh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar C:\Users\Rajesh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar C:\Users\Rajesh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\Rajesh\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\Rajesh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Rajesh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Rajesh\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63417 -protocol json -d C:\Users\Rajesh\eclipse-workspace\APIautomation\test-output C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse--294254627\testng-customsuite.xml
+java -ea -classpath C:\Users\Rajesh\eclipse-java-2022-03-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\433\0\.cp\lib\testng-remote.jar:C:\Users\Rajesh\eclipse-workspace\APIautomation\target\test-classes:C:\Users\Rajesh\eclipse-workspace\APIautomation\target\classes:C:\Users\Rajesh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar:C:\Users\Rajesh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar:C:\Users\Rajesh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar:C:\Users\Rajesh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Rajesh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Rajesh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Rajesh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Rajesh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Rajesh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Rajesh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Rajesh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar:C:\Users\Rajesh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar:C:\Users\Rajesh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar:C:\Users\Rajesh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar:C:\Users\Rajesh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\Rajesh\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\Rajesh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Rajesh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Rajesh\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 63417 -protocol json -d C:\Users\Rajesh\eclipse-workspace\APIautomation\test-output C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse--294254627\testng-customsuite.xml
+
+!ENTRY org.eclipse.equinox.security 1 0 2024-09-12 00:16:59.687
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.egit.core 4 0 2024-09-12 00:17:00.161
+!MESSAGE An exception occurred during push on URI https://github.com/Narendirakumarg/Automation-Training.git: https://github.com/Narendirakumarg/Automation-Training.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Narendirakumarg/Automation-Training.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1385)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-09-12 00:17:00.163
+!MESSAGE Can't connect to any repository: https://github.com/Narendirakumarg/Automation-Training.git (https://github.com/Narendirakumarg/Automation-Training.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-09-12 00:17:37.286
+!MESSAGE An exception occurred during push on URI https://github.com/Narendirakumarg/Automation-Training.git: https://github.com/Narendirakumarg/Automation-Training.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Narendirakumarg/Automation-Training.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1385)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-09-12 00:17:37.287
+!MESSAGE Can't connect to any repository: https://github.com/Narendirakumarg/Automation-Training.git (https://github.com/Narendirakumarg/Automation-Training.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-09-12 00:18:02.022
+!MESSAGE An exception occurred during push on URI https://github.com/Narendirakumarg/Automation-Training.git: https://github.com/Narendirakumarg/Automation-Training.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Narendirakumarg/Automation-Training.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1385)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-09-12 00:18:02.022
+!MESSAGE Can't connect to any repository: https://github.com/Narendirakumarg/Automation-Training.git (https://github.com/Narendirakumarg/Automation-Training.git: not authorized)
